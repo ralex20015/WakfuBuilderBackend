@@ -11,7 +11,9 @@ kotlinx-coroutines = "1.0.0"
 
 [libraries]
 spring-boot-starter = { module = "org.springframework.boot:spring-boot-starter" }
+spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-starter-web" }
 spring-boot-starter-data-jpa = { module = "org.springframework.boot:spring-boot-starter-data-jpa" }
+spring-boot-starter-flyway = { module = "org.springframework.boot:spring-boot-starter-flyway" }
 
 postgresql = { module = "org.postgresql:postgresql" }
 h2 = { module = "com.h2database:h2" }

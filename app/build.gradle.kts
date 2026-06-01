@@ -21,6 +21,8 @@ dependencies {
     implementation(projects.api)
 
     implementation(libs.spring.boot.starter)
+    runtimeOnly(libs.spring.boot.starter.flyway)
+    runtimeOnly(libs.h2)
     testImplementation(libs.spring.boot.starter.test)
     testImplementation(libs.kotlin.test.junit5)
 

@@ -15,6 +15,7 @@ repositories {
 
 dependencies {
     implementation(libs.spring.boot.starter)
+    implementation(libs.spring.boot.starter.web)
     implementation(libs.spring.boot.starter.data.jpa)
     runtimeOnly(libs.postgresql)
 
